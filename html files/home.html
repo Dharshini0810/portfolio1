@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharshini Thangavel</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="circle-progress.js"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <div class="nav-bar">   
+              <nav>
+                 <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fas fa-bars" onclick="openmenu()"></i>
+               </nav>
+            </div>
+            
+            <div class="header-text">
+                <h1>Hi,I'm <span>Dharshini Thangavel</span> from India</h1>
+                <p>Front-end Developer</p>
+            </div>
+            <div class="intro">
+                <h2>Explore My <span class="auto-type"></span></h2>
+            </div>
+            <div id="parent-container">
+                <div class="navigation-buttons">
+                    <div class="previous nav-btn"></div>
+                    <div class="next nav-btn"></div>
+                </div>
+                <div class="slider-carousel">
+                    <div class="images main">
+                      
+                      <div class="image-text"><span>+3 </span>Projects</div>
+                    </div>
+                    <div class="images">
+                      
+                      <div class="image-text"><span>4</span> Stars(C++)<span><br>2 </span>Stars(Problem Solving)<br>Hackerrank</div>
+                    </div>
+                    <div class="images">
+                      
+                      <div class="image-text"><span>+2</span> Certified Courses</div>
+                    </div>      
+                  </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="image1">
+                        <img src="/images/image.jpg">
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A passionate Web Designer specializing in creating captivating and user-friendly websites.With a track record of successful projects for diverse clients, I excel in responsive design and optimizing user experiences.Let's collaborate and bring your digital vision to life!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('languages')">Languages</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                            <div class="skill-container">
+                                <div class="prog-container">
+                                   <div class="progress-circle" data-progress="95">
+                                    <div class="value-container">95%</div>
+                                   </div>
+                                   <div class="pr-skill-name">HTML/CSS</div>
+                                </div>
+                                <div class="prog-container ">
+                                    <div class="progress-circle container2">
+                                        <div class="value-container contain2">85%</div>
+                                    </div>
+                                    <div class="pr-skill-name">JAVASCRIPT</div>
+                                 </div>
+                                 <div class="prog-container">
+                                    <div class="progress-circle container3" >
+                                    <div class="value-container contain3">60%</div>
+                                    </div>
+                                    <div class="pr-skill-name">FLASK</div>
+                                 </div>
+                                 <div class="prog-container">
+                                    <div class="progress-circle container4" data-progress="95">
+                                    <div class="value-container contain4">50%</div>
+                                    </div>
+                                    <div class="pr-skill-name">IBM CLOUD</div>
+                                 </div>
+                            </div>
+                    </div>
+                    <div class="tab-contents" id="languages">
+                        <div class="skill">
+                            <div class="skill-name">C</div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="95%" style="max-width:95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">C++</div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="95%" style="max-width:95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">JAVA</div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="85%" style="max-width:90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">PYTHON</div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="60%" style="max-width:60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">SQL</div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="65%" style="max-width:65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>Workshop at MIT College,Chennai<br><span>Domain:</span> Web Development</li>
+                            </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BE.,CSE - 9.33</span>(upto 5th sem)<br>Pursuing<br>Government College of Engineering,Salem</li>
+                            <li><span>HSC - 86%</span><br>2020<br>AGN Matric Higher Secondary School,Salem</li>
+                            <li><span>SSLC - 96%</span><br>2018<br>AGN Matric Higher Secondary School,Salem</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-1.png">
+                    <div class="layer">
+                        <h3>Food Order Management System</h3>
+                        <p>The wed-based system which provides the people to check the availability of the food items and can place the order and make payment through online.</p>
+                        <a target="_blank" href="https://github.com/Dharshini0810/project"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.jpeg">
+                    <div class="layer">
+                        <h3>Smart Agricultural System using Machine Learning</h3>
+                         <p>The web-based system that provides the farmer with the suitable crop that must be planted on thier land based on the soil parameters and climatic conditions.</p>
+                        <a target="_blank" href="https://github.com/Dharshini0810/myproject/tree/master/crop-recommendation-system-based-on-machine-learning-using-python-master "><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.jpg">
+                    <div class="layer">
+                        <h3>Complaint Management System</h3>
+                        <p>The web-based system that provides the users to place thier complaints through online and also able to view the status of their complaint that they have posted.</p>
+                        <a target="_blank" href="http://169.51.205.215:30430"><i class="fas fa-external-link-alt"></i></a>
+                    </div>            
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>dharshinit810@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>8838717027</p>
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.instagram.com/__dharshini_0810__/?next=%2F"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://github.com/Dharshini0810"><i class="fab fa-github"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/dharshini-t-a41968247/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="/Dharshini T-Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Dharshini.</p>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    let circularProgress= document.querySelector(".progress-circle");
+    let progressValue= document.querySelector(".value-container");
+
+    let progressStartValue=0,
+        progressEndValue=90,
+        speed=50;
+    
+    let progress= setInterval(()=>{
+        progressStartValue++;
+
+        progressValue.textContent= `${progressStartValue}%`;
+        circularProgress.style.background = `conic-gradient(#18f08b ${progressStartValue * 3.6}deg, #282828 0deg)`;
+
+        if(progressStartValue==progressEndValue){
+            clearInterval(progress);
+        }
+
+        
+
+    });
+
+
+    let circularProgress2= document.querySelector(".container2");
+    let progressValue2= document.querySelector(".contain2");
+
+    let progressStartValue2=0,
+        progressEndValue2=85,
+        speed2=50;
+    
+    let progress2= setInterval(()=>{
+        progressStartValue2++;
+
+        progressValue2.textContent= `${progressStartValue2}%`;
+        circularProgress2.style.background = `conic-gradient(#18f08b ${progressStartValue * 3.6}deg, #282828 0deg)`;
+
+        if(progressStartValue2==progressEndValue2){
+            clearInterval(progress2);
+        }
+
+        
+
+    });
+
+    let circularProgress3= document.querySelector(".container3");
+    let progressValue3= document.querySelector(".contain3");
+
+    let progressStartValue3=0,
+        progressEndValue3=60,
+        speed3=50;
+    
+    let progress3= setInterval(()=>{
+        progressStartValue3++;
+
+        progressValue3.textContent= `${progressStartValue3}%`;
+        circularProgress3.style.background = `conic-gradient(#18f08b ${progressStartValue * 3.6}deg, #282828 0deg)`;
+
+        if(progressStartValue3==progressEndValue3){
+            clearInterval(progress3);
+        }
+
+        
+
+    });
+
+    let circularProgress4= document.querySelector(".container4");
+    let progressValue4= document.querySelector(".contain4");
+
+    let progressStartValue4=0,
+        progressEndValue4=50,
+        speed4=50;
+    
+    let progress4= setInterval(()=>{
+        progressStartValue4++;
+
+        progressValue4.textContent= `${progressStartValue4}%`;
+        circularProgress4.style.background = `conic-gradient(#18f08b ${progressStartValue * 3.6}deg, #282828 0deg)`;
+
+        if(progressStartValue4==progressEndValue4){
+            clearInterval(progress4);
+        }
+
+        
+
+    });
+
+
+
+    const previous = document.querySelector('.previous');
+    const next = document.querySelector('.next');
+    const images = document.querySelector('.slider-carousel').children;
+    const totalImages = images.length;
+    let currentIndex = 0;
+
+
+    // Event Listeners to previous and next buttons
+    previous.addEventListener('click', () => {
+      previousImage()
+    })
+
+    next.addEventListener('click', () => {
+      nextImage();
+    })
+    
+    setInterval(()=>{
+        nextImage();
+    },1000);
+    
+    // Function to go to next Image
+    function nextImage(){
+
+      images[currentIndex].classList.remove('main');
+        if(currentIndex == totalImages-1){
+            currentIndex = 0;
+        }
+        else{
+            currentIndex++;
+        }
+
+      images[currentIndex].classList.add('main');
+      
+    }
+    
+    // Function to go to previous Image
+    function previousImage(){
+
+      images[currentIndex].classList.remove('main');
+        if(currentIndex == 0){
+            currentIndex = totalImages-1;
+        }
+        else{
+            currentIndex--;
+        }
+    
+      images[currentIndex].classList.add('main');
+
+    }
+
+
+//script for intro
+
+    var typed = new Typed(".auto-type",{
+        strings: ["Art of Coding" ,"Skillspace" , "Talent Works", "Experience","Education"],
+        typeSpeed:150,
+        backSpeed:150,
+        loop: true
+    })
+
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+    
+</script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxn9zi6kgZxJ-QghPsjTqxKztwbJwueRZB89Sv-5Lyv8_0PWXhUSCOW9w84Gt75W8w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Submitted Successfully";
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
